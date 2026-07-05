@@ -1,0 +1,5 @@
+environmentConfigs:
+  default:
+    variables:
+      BROWSER: chrome
+      URL: https://opensource-demo.orangehrmlive.com

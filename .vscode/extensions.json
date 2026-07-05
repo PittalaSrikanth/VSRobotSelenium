@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "d-biehl.robotcode",
+        "eamodio.gitlens",
+        "redhat.vscode-yaml",
+        "usernamehw.errorlens"
+    ]
+}

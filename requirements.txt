@@ -1,0 +1,13 @@
+robotframework
+robotframework-seleniumlibrary
+selenium
+webdriver-manager
+robotframework-requests
+robotframework-jsonlibrary
+robotframework-datadriver
+robotframework-pabot
+pabot
+openpyxl
+pyyaml
+pandas
+robotframework-robocop
