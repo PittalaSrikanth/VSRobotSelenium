@@ -32,7 +32,7 @@ powershell -ExecutionPolicy Bypass -File .\run_tests.ps1 tests/smoke
 ```
 
 ```bash
-robot tests/smoke
+robot tests
 ```
 
 Run in Parallel
