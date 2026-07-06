@@ -1,4 +1,5 @@
 *** Settings ***
+Documentation       Common timeout variables used across tests.
 Variables       variables.py
 
 

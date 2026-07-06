@@ -8,7 +8,7 @@ Library             ../../libraries/WaitHelper.py
 
 
 *** Variables ***
-${REPORTS_DIR}          ${CURDIR}/../reports
+${REPORTS_DIR}          D:/Playwright/VSRobotSelenium/reports
 ${SCREENSHOT_DIR}       ${REPORTS_DIR}/screenshots
 
 
@@ -60,3 +60,7 @@ Verify Page Contains
     [Documentation]    Verifies that the page contains the provided text.
     [Arguments]    ${text}
     Page Should Contain    ${text}
+
+Quit Browser
+    [Documentation]    Closes all open browser instances.
+    Close All Browsers

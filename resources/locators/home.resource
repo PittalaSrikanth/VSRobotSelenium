@@ -1,3 +1,7 @@
+*** Settings ***
+Documentation       Locator variables for the home page.
+
+
 *** Variables ***
 ${MENU_ADMIN}           xpath=//span[text()='Admin']
 

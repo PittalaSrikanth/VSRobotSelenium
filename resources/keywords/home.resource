@@ -20,3 +20,29 @@ Navigate To Leave
 Logout From Application
     [Documentation]    Logs the current user out of the application.
     Logout
+Enter_username
+    [Arguments]    ${USERNAME}
+    Wait Until Element Is Visible    ${USERNAME_INPUT}    15 seconds
+    Clear Element Text    ${USERNAME_INPUT}
+    Input Text    ${USERNAME_INPUT}    ${USERNAME}
+
+Enter_Password
+    [Arguments]   ${PASSWORD}
+    Wait Until Element Is Visible    ${PASSWORD_INPUT}    15 seconds
+    Clear Element Text    ${PASSWORD_INPUT}
+    Input Text    ${PASSWORD_INPUT}    ${PASSWORD}
+
+Enter_lgnBtn
+    Wait Until Element Is Visible    ${LOGIN_BTN}    15 seconds
+    Click Button    ${LOGIN_BTN}
+
+LoginToApplication
+    [Arguments]    ${USERNAME}    ${PASSWORD}
+    Wait Until Element Is Visible    ${USERNAME_INPUT}    15 seconds
+    Clear Element Text    ${USERNAME_INPUT}
+    Input Text    ${USERNAME_INPUT}    ${USERNAME}
+    Wait Until Element Is Visible    ${PASSWORD_INPUT}    15 seconds
+    Clear Element Text    ${PASSWORD_INPUT}
+    Input Text    ${PASSWORD_INPUT}    ${PASSWORD}
+    Wait Until Element Is Visible    ${LOGIN_BTN}    15 seconds
+    Click Button    ${LOGIN_BTN}

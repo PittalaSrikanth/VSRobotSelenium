@@ -31,6 +31,18 @@ Run Smoke Suite
 powershell -ExecutionPolicy Bypass -File .\run_tests.ps1 tests/smoke
 ```
 
+Run with Allure
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\run_tests.ps1 -Allure
+```
+
+Run with Extent-style report
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\run_tests.ps1 -Extent
+```
+
 ```bash
 robot tests
 ```

@@ -11,3 +11,4 @@ openpyxl
 pyyaml
 pandas
 robotframework-robocop
+allure-robotframework

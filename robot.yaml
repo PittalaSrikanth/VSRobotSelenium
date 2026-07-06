@@ -2,4 +2,4 @@ environmentConfigs:
   default:
     variables:
       BROWSER: chrome
-      URL: https://opensource-demo.orangehrmlive.com
+      URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login

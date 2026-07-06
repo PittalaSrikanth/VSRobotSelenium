@@ -4,7 +4,6 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
         {
             "name": "RobotCode: Run Current",
             "type": "robotcode",
@@ -33,6 +32,11 @@
             "name": "RobotCode: Python",
             "type": "debugpy",
             "request": "attach",
+            "connect": {
+                "host": "127.0.0.1",
+                "port": 64901
+            },
+            "justMyCode": false,
             "presentation": {
                 "hidden": true
             }

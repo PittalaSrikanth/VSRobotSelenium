@@ -8,7 +8,7 @@ from pages.BasePage import BasePage
 
 class LoginPage(BasePage):
 
-    def login(self, username_locator,
+    def Login(self, username_locator,
                     password_locator,
                     login_button_locator,
                     username,
@@ -17,8 +17,8 @@ class LoginPage(BasePage):
         self.enter_password(password_locator, password)
         self.click(login_button_locator)
 
-    def verify_dashboard(self, dashboard_locator):
+    def VerifyDashboard(self, dashboard_locator):
         self.wait_until_visible(dashboard_locator)
 
-    def verify_login_error(self, error_locator):
-        return self.get_text(error_locator)
+    def VerifyLoginError(self, error_locator):
+        return self.getText(error_locator)
